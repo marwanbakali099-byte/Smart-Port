@@ -1,0 +1,68 @@
+# --- SMARTPORT INTELLIGENCE UNIFIED GITIGNORE ---
+
+# --- System / OS ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- IDEs ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Frontend (FRONT_END_SMARTPORT_INTELLIGENCE) ---
+node_modules/
+FRONT_END_SMARTPORT_INTELLIGENCE/node_modules/
+FRONT_END_SMARTPORT_INTELLIGENCE/dist/
+FRONT_END_SMARTPORT_INTELLIGENCE/dist-ssr/
+FRONT_END_SMARTPORT_INTELLIGENCE/*.local
+FRONT_END_SMARTPORT_INTELLIGENCE/.env
+FRONT_END_SMARTPORT_INTELLIGENCE/npm-debug.log*
+FRONT_END_SMARTPORT_INTELLIGENCE/yarn-debug.log*
+FRONT_END_SMARTPORT_INTELLIGENCE/yarn-error.log*
+
+# --- Backend (Smart_port_Ai) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+geodjango.log
+.python_history
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+Smart_port_Ai/venv/
+Smart_port_Ai/env/
+Smart_port_Ai/Smart_Port_Ai/venv/
+
+# Django specifics
+Smart_port_Ai/Smart_Port_Ai/.env
+Smart_port_Ai/Smart_Port_Ai/db.sqlite3
+Smart_port_Ai/Smart_Port_Ai/db.sqlite3-journal
+Smart_port_Ai/Smart_Port_Ai/media/
+Smart_port_Ai/Smart_Port_Ai/static/
+Smart_port_Ai/Smart_Port_Ai/staticfiles/
+
+# ML/AI specifics
+*.pt
+*.onnx
+*.weights
+!yolov8n.pt  # Keep the base model if necessary, or ignore if you want to download it at runtime
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
