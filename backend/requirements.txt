@@ -1,0 +1,11 @@
+django>=5.0
+djangorestframework
+django-cors-headers
+rest-framework-gis
+psycopg2-binary
+xgboost
+pandas
+numpy
+opencv-python
+ultralytics
+python-dotenv
